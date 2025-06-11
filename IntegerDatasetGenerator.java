@@ -26,7 +26,7 @@ public class IntegerDatasetGenerator {
     }
 
     public static void main(String[] args) {
-        int[] sizes = {1000, 10000, 100000, 1000000, 10000000};
+        int[] sizes = { 1000, 10000, 100000, 1000000, 10000000 };
 
         for (int size : sizes) {
             String filename = "dataset_" + size + ".txt";
